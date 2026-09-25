@@ -6,7 +6,7 @@ import sklearn
 
 
 obj=joblib.load('California.joblib')
-model=obj['Califronia.joblib']
+model=obj['model']
 col=obj['columns']
 
 st.title('California app')
